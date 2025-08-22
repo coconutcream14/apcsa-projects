@@ -9,7 +9,7 @@ public class Starter implements Directions{
     World.setVisible(true);// allows us to see the run output
     // the bigger the street, the farther north
     World.setSize(20,20);
-    World.setDelay(0);
+    World.setDelay(10);
 
 
     // The line below creates a Robot that we will refer to as rob
@@ -104,6 +104,7 @@ public class Starter implements Directions{
     rob.putBeeper();
     rob.move();
     rob.putBeeper();
+    rob.move();
 
     // done with the line, now on the curve
     // rob.turnLeft();
